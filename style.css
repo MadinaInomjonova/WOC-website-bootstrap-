@@ -1,0 +1,110 @@
+* {
+    color: #1C1C1C;
+}
+
+/* Header */ 
+.logo img {
+    background-color: #1B1AFF;
+    padding: 0.3rem 0;
+}
+
+.menu a {
+    text-transform: capitalize;
+    color: #1C1C1C;
+}
+
+.register button:first-child {
+    margin-right: 0.9rem;
+}
+
+/* Home section */
+.home_section {
+    margin-top: 5rem;
+}
+.home_section h2, .home_section p {
+    margin-bottom: 2.5rem;
+}
+
+.home_section__footer button {
+    background-color: #1B1AFF;
+    margin-right: 3rem;
+    border-color: #1B1AFF;
+}
+/* .home_section img {
+    width: 42.5rem;
+    height: 41rem;
+} */
+
+.home_section__middle {
+    margin-top: 14rem;
+    padding-bottom: 14rem;
+}
+.home_section__middle h2 {
+    margin-bottom: 1.5rem;
+}
+.home_section__middle p {
+    margin-bottom: 5.5rem;
+}
+.home_section__card {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 7.5rem;
+    padding-bottom: 10rem;
+}
+
+/* Courses Section */ 
+.courses_section {
+    margin-bottom: 16rem;
+}
+.courses_section h2 {
+    margin-bottom: 5.5rem;
+}
+.card img {
+    width: 20px;
+    height: 65px;
+    margin-top: 2rem;
+    padding-bottom: 1.5rem;
+}
+.card {
+    width: 18rem;
+    height: 26rem;
+}
+.card h4, .card p {
+    margin-bottom: 1.5rem;
+}
+.card:hover {
+    background-color: #F5F8FE;
+    border: none;
+    transition: 0.5s;
+}
+
+/* About Section */
+.about_section {
+    margin-bottom: 12rem;
+}
+.about_section div:nth-child(2) {
+    background-color: #F5F8FE;
+    border-radius: 1.5rem;
+}
+.about_section h4 {
+    margin-bottom: 5rem;
+}
+
+/* Blog section */ 
+.blog_section {
+    background-image: url("./images/Component\ 1\ \(1\).png");
+    height: 32rem;
+    text-align: center;
+}
+.blog_section h2 {
+    padding-top: 9.5rem;
+}
+.blog_section button, .home_section button {
+    width: 12rem;
+    height: 4rem;
+}
+
+/* Footer Section */
+.footer_section {
+    background-color: #1C1C1C;
+}
